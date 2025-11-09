@@ -1,7 +1,3 @@
-Here’s the **complete README.md file code** you can copy–paste directly into your project root 👇
-
-Save it as:
-📄 `README.md`
 
 ---
 
