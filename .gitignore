@@ -1,0 +1,44 @@
+# ---- Node / Client ----
+client/node_modules/
+client/build/
+client/dist/
+client/.next/
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+client/.vercel/
+
+# ---- Python / Backend ----
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.env
+backend/*.log
+backend/logs/
+
+backend/logs/
+*.log
+
+
+# ---- General ----
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# ---- Migrations ----
+migrate/__pycache__/
+migrate/*.pyc
+migrate/venv/
+migrate/env/
+migrate/.env
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+*.swp

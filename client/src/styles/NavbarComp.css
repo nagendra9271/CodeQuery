@@ -1,0 +1,43 @@
+/* NavbarComp.css */
+.bg-custom-dark {
+  background-color: #1a2a44 !important; /* Deep Blue */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff !important; /* White text */
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #0d6efd !important; /* Bootstrap primary blue on hover */
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #0d6efd !important;
+}
+
+.nav-link.active {
+  color: #0d6efd !important;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #1a2a44;
+    padding: 1rem;
+  }
+
+  .nav-link {
+    color: #ffffff !important;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Ensure content below navbar has padding to avoid overlap */

@@ -1,0 +1,30 @@
+cd backend
+permanent:-
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+temporary:-
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+./.venv/Scripts/activate (after the above line to activate venv)
+
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope Process  (revert to default version)
+
+
+#flask-migrate
+To run migrations with Flask-Migrate, follow these steps:
+backend/.venv/Scripts/activate
+Initialize the migration directory (if not already done):
+flask db init
+
+Generate an initial migration:
+flask db migrate -m "Initial migration."
+
+Apply the migration to the database:
+flask db upgrade
+
+Make sure you have set the FLASK_APP environment variable correctly before running these commands
+
+
+if any Errors occur
+$env:FLASK_APP = "backend/server.py"
