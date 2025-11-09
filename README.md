@@ -23,21 +23,14 @@ It supports user authentication (JWT), question and comment handling, and loggin
 
 project_root/
 │
-├── client/                  # React frontend
-│   ├── src/
-│   ├── package.json
-│   └── .env
-│
-├── backend/                 # Flask backend
-│   ├── app/
-│   ├── logs/                # Log files (app.log)
-│   ├── requirements.txt
-│   ├── app.py
-│   └── .env
-│
-├── migrate/                 # Migration scripts
-│   └── versions/
-│
+├── client/ # React frontend
+├── backend/ # Flask backend
+│ ├── app.py
+│ ├── app/
+│ ├── logs/
+│ ├── requirements.txt
+│ └── .env
+├── migrate/ # Database migration scripts
 └── README.md
 
 
